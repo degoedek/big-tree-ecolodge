@@ -240,6 +240,30 @@
   color: white;
   text-decoration: none;
 }
+	.shareSection {
+  text-align: center;
+  margin-top: 60px;
+  padding-top: 25px;
+  border-top: 1px solid #ddd;
+}
+
+.shareTitle {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+.shareIcons a {
+  font-size: 22px;
+  margin: 0 12px;
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.shareIcons a:hover {
+  color: #c8102e;
+}
 	
 </style>
 <link rel="icon" type="image/png" href="big-tree-icon.png">
@@ -403,6 +427,30 @@
 		</div>
       </section>
     </footer>
-  </div>
+
+<div class="shareSection">
+	<p class="shareTitle">Help spread the word</p>
+	<div class="shareIcons">
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=PAGE_URL" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=PAGE_URL" target="_blank">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=PAGE_URL&text=Help build the Big Tree EcoLodge in The Gambia" target="_blank">
+      <i class="fab fa-x-twitter"></i>
+    </a>
+    <a href="mailto:?subject=Big Tree EcoLodge Project&body=Learn more: PAGE_URL">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a href="https://api.whatsapp.com/send?text=PAGE_URL" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="#" onclick="navigator.clipboard.writeText('PAGE_URL'); return false;">
+      <i class="fas fa-link"></i>
+    </a>
+  	</div>
+	</div>
+</div>
 </body>
 </html>
